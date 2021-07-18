@@ -89,7 +89,7 @@ body{
   color: #ffffff;
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 600px){
   .first{
     border-radius: 2% 2% 0% 0%;
 
@@ -101,11 +101,16 @@ body{
 
   .feature-box{
     padding : 8%;
-    height : 500px;
+    height : 550px;
   }
 
   .icons{
     padding-bottom : 8%;
+  }
+  
+  .btn{
+        margin-top: 10%;
+    margin-bottom : 4%;
   }
 
 

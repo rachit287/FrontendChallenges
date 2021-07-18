@@ -1,0 +1,112 @@
+h1{
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+  padding : 8.5% 5% 8.5% 5%;
+}
+
+p{
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  padding-left : 5%;
+  padding-bottom : 19%;
+  line-height: 1.7;
+}
+
+body{
+  background-color: hsl(0, 0%, 95%);
+}
+
+.alpha{
+  margin : 10% 15% 15% 15%;
+}
+
+.icons{
+  padding : 5%;
+}
+
+.feature-box{
+  height : 550px;
+  width : 45px;
+  padding : 3%;
+}
+
+.first{
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 5% 0% 0% 5%;
+}
+
+.second{
+  background-color: hsl(184, 100%, 22%);
+}
+.third{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0% 5% 5% 0%;
+}
+
+
+.btn {
+  margin-left : 7%;
+  margin-top : 13%;
+  font-family: 'Lexend Deca', sans-serif;
+  color :
+  -webkit-border-radius: 47;
+  -moz-border-radius: 47;
+  border-radius: 47px;
+  color: #ffffff;
+  font-size: 15px;
+  background: #f2f2f2;
+  padding: 12px 35px 12px 35px;
+  border: solid #ffffff 3px;
+  text-decoration: none;
+}
+.btn#bfirst{
+  color : #e38826;
+}
+
+.btn#bsecond{
+  color : hsl(184, 100%, 22%);
+}
+
+.btn#bthird{
+  color : hsl(179, 100%, 13%);
+}
+.btn#bfirst:hover {
+  background: #e38826;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn#bsecond:hover{
+  background: hsl(184, 100%, 22%);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.btn#bthird:hover{
+  background:hsl(179, 100%, 13%);
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 375px){
+  .first{
+    border-radius: 2% 2% 0% 0%;
+
+  }
+
+  .third{
+    border-radius: 0% 0% 2% 2%;
+  }
+
+  .feature-box{
+    padding : 8%;
+    height : 500px;
+  }
+
+  .icons{
+    padding-bottom : 8%;
+  }
+
+
+}

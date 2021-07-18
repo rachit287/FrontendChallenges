@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](3-column-preview-card-component-main/images/Annotation 2021-07-18 055237.png)
+![](https://github.com/rachit287/FrontendChallenges/blob/721314bef8dc3f888a65087806a66ba8c8c5ed0a/3-column-preview-card-component-main/images/Annotation%202021-07-18%20055237.png)
 
 
 ### Links

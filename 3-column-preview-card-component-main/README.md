@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://frontend-challenges-i9igdlqgd-rachit287.vercel.app/)
+- Live Site URL: [See here.](https://frontend-challenges-i9igdlqgd-rachit287.vercel.app/)
 ## My process
 
 ### Built with

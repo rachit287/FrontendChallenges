@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](3-column-preview-card-component-main/images/Annotation 2021-07-18 055237.png)
 
 
 ### Links

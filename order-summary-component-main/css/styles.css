@@ -1,0 +1,143 @@
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  box-sizing: border-box;
+  padding : 0;
+  margin : 0;
+  background-color: hsl(225, 100%, 94%);
+    text-align: center;
+}
+
+.back-img{
+  height : 50vh;
+  width : 100vw;
+  background-size: cover;
+  position: absolute;
+  display : block;
+  z-index : -1;
+}
+
+.muzik{
+
+}
+
+.card-img{
+ background-size: cover;
+    width: inherit;
+    height: auto;
+    border-radius: inherit;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+/* Main container layout changes */
+.container-main{
+  display : flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container-img{
+  display: inline-block;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
+
+.card-main{
+  height : 80vh;
+  width : 50vh;
+  background-color : hsl(225, 100%, 98%);
+  position : absolute;
+  top : 15%;
+  border-radius : 20px;
+}
+
+.icon-box{
+  width: 78%;
+      height: 14%;
+      background-color:hsl(225, 100%, 96.8%);
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      border-radius: 5px;
+
+}
+
+
+h1{
+  font-size: 25px;
+  font-weight: 900;
+  padding-top: 5%;
+}
+
+h2{
+  font-family: "Arial",sans-serif;
+  font-size: 90%;
+  font-weight: 500;
+  line-height: 1.5;
+  color : grey;
+
+}
+
+.first{
+  display: inline-block;
+      font-family: 'Red Hat Display', sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.7;
+      position: absolute;
+      left: 30%;
+}
+
+.dollar-sign{
+  color : grey;
+  font-weight: 500;
+}
+
+.fi-jig{
+  text-decoration: underline;
+      font-size: 12px;
+      color: hsl(223, 47%, 23%);
+      font-weight: 700;
+      display: inline-block;
+      position: absolute;
+      right: 5%;
+      bottom: 25%;
+}
+
+.fi-butt{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  color : white;
+  box-shadow : 0 10px 20px rgba(0,0,0,0.2);
+  width: 78%;
+    height: 7%;
+    border: 0;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    position: relative;
+    top: 20%;
+}
+
+.fi-butt:hover{
+  background-color: hsl(224, 23%, 55%);
+}
+
+.fi-cancel{
+  position: relative;
+    top: 22%;
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.fi-cancel:hover{
+  color : black;
+}
+
+.fi-jig:hover{
+  text-decoration: none;
+  color : hsl(224, 23%, 55%);
+}
